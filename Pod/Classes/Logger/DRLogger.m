@@ -44,14 +44,14 @@
                 }
                 @catch (NSException *exception) {
                 }
-
+                
             }
         }
         
         _loggerQueue = [[NSOperationQueue alloc] init];
         _loggerQueue.maxConcurrentOperationCount = 1;
         
-        [self appendLog:@"Log Begins..."];
+        [self _appendLog:@"Log Begins..."];
     }
     return self;
 }
@@ -82,7 +82,7 @@
     [data writeToFile:[self myPath] atomically:YES];
 }
 
--(void) appendLog: (NSString*) string {
+-(void) _appendLog: (NSString*) string {
     if (string) {
         [_loggerQueue addOperationWithBlock:^{
             [_log appendString:[NSString stringWithFormat:@"%@: %@\n",[_formatter stringFromDate:[NSDate date]],string]];
@@ -95,12 +95,24 @@
     }
 }
 
--(void) appendLog: (NSString*) string withParam: (id) param {
-    NSString *log = [NSString stringWithFormat:string,param];
-    [self appendLog:log];
-}
-
 -(NSString*) logAsString {
     return _log;
 }
+
+- (void)appendLog:(NSString*)prefix, ... {
+    @autoreleasepool {
+        
+        va_list args;
+        va_start(args, prefix);
+        NSString* arg = va_arg(args, NSString*);
+        if (nil != arg && [arg rangeOfString:@"%"].location != NSNotFound) {
+            NSString *message = [[NSString alloc] initWithFormat:arg arguments:args];
+            [self _appendLog:message];
+        } else {
+            [self _appendLog:arg];
+        }
+        va_end(args);
+    }
+}
+
 @end

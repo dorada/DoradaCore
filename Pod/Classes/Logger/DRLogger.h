@@ -13,8 +13,8 @@
 -(id) initWithIdentifier: (NSString*) identifier isPersistent: (BOOL) persistent;
 
 -(NSString*) logAsString;
--(void) appendLog: (NSString*) string;
--(void) appendLog: (NSString*) string withParam: (id) param;
 -(NSString*) persistantFilePath;
+
+- (void) appendLog:(NSString*)prefix, ...;
 
 @end
