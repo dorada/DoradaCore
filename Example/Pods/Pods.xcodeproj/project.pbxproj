@@ -1,0 +1,918 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0950A8BD46983AB0EB17ED502D6C38A4 /* DoradaCore.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E6798CC8F872DCA3C0248E50094CD585 /* DoradaCore.bundle */; };
+		544B5BDB9ADD151D9399CF874B10A6E5 /* Pods-DoradaCore_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D43F211DA4D78ED129027D6E1DCFF07 /* Pods-DoradaCore_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6530D44C1C6751BA007C0923 /* DRABTestingController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6530D44A1C6751BA007C0923 /* DRABTestingController.h */; };
+		6530D44D1C6751BA007C0923 /* DRABTestingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6530D44B1C6751BA007C0923 /* DRABTestingController.m */; };
+		6530D4511C6751D0007C0923 /* DRSimpleAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = 6530D44F1C6751D0007C0923 /* DRSimpleAlert.h */; };
+		6530D4521C6751D0007C0923 /* DRSimpleAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 6530D4501C6751D0007C0923 /* DRSimpleAlert.m */; };
+		6530D45E1C67521C007C0923 /* DRActivityAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6530D4541C67521C007C0923 /* DRActivityAlertView.h */; };
+		6530D45F1C67521C007C0923 /* DRActivityAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6530D4551C67521C007C0923 /* DRActivityAlertView.m */; };
+		6530D4601C67521C007C0923 /* DRLegacyLoadingHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 6530D4561C67521C007C0923 /* DRLegacyLoadingHUD.h */; };
+		6530D4611C67521C007C0923 /* DRLegacyLoadingHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 6530D4571C67521C007C0923 /* DRLegacyLoadingHUD.m */; };
+		6530D4621C67521C007C0923 /* DRLoadingHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 6530D4581C67521C007C0923 /* DRLoadingHUD.h */; };
+		6530D4631C67521C007C0923 /* DRLoadingHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 6530D4591C67521C007C0923 /* DRLoadingHUD.m */; };
+		6530D4641C67521C007C0923 /* DRLoadingHUDView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6530D45A1C67521C007C0923 /* DRLoadingHUDView.h */; };
+		6530D4651C67521C007C0923 /* DRLoadingHUDView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6530D45B1C67521C007C0923 /* DRLoadingHUDView.m */; };
+		6530D4661C67521C007C0923 /* DRSeparatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6530D45C1C67521C007C0923 /* DRSeparatorView.h */; };
+		6530D4671C67521C007C0923 /* DRSeparatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6530D45D1C67521C007C0923 /* DRSeparatorView.m */; };
+		6530D46B1C675226007C0923 /* DRLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 6530D4691C675226007C0923 /* DRLogger.h */; };
+		6530D46C1C675226007C0923 /* DRLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 6530D46A1C675226007C0923 /* DRLogger.m */; };
+		6530D4721C675234007C0923 /* DRAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 6530D46E1C675234007C0923 /* DRAppDelegate.h */; };
+		6530D4731C675234007C0923 /* DRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6530D46F1C675234007C0923 /* DRAppDelegate.m */; };
+		6530D4741C675234007C0923 /* DRSingleton.h in Headers */ = {isa = PBXBuildFile; fileRef = 6530D4701C675234007C0923 /* DRSingleton.h */; };
+		6530D4751C675234007C0923 /* DRSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6530D4711C675234007C0923 /* DRSingleton.m */; };
+		6530D4811C675263007C0923 /* DRApplicationPaths.h in Headers */ = {isa = PBXBuildFile; fileRef = 6530D4771C675263007C0923 /* DRApplicationPaths.h */; };
+		6530D4821C675263007C0923 /* DRApplicationPaths.m in Sources */ = {isa = PBXBuildFile; fileRef = 6530D4781C675263007C0923 /* DRApplicationPaths.m */; };
+		6530D4831C675263007C0923 /* DRDiskspaceUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 6530D4791C675263007C0923 /* DRDiskspaceUtilities.h */; };
+		6530D4841C675263007C0923 /* DRDiskspaceUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 6530D47A1C675263007C0923 /* DRDiskspaceUtilities.m */; };
+		6530D4851C675263007C0923 /* DRInstallTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 6530D47B1C675263007C0923 /* DRInstallTracker.h */; };
+		6530D4861C675263007C0923 /* DRInstallTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 6530D47C1C675263007C0923 /* DRInstallTracker.m */; };
+		6530D4871C675263007C0923 /* DRTimeFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 6530D47D1C675263007C0923 /* DRTimeFormatter.h */; };
+		6530D4881C675263007C0923 /* DRTimeFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6530D47E1C675263007C0923 /* DRTimeFormatter.m */; };
+		6530D4891C675263007C0923 /* isPirate.h in Headers */ = {isa = PBXBuildFile; fileRef = 6530D47F1C675263007C0923 /* isPirate.h */; };
+		6530D48A1C675263007C0923 /* isPirate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6530D4801C675263007C0923 /* isPirate.m */; };
+		6530D4A81C67539D007C0923 /* DRBlurryBackgroundViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6530D48E1C67539D007C0923 /* DRBlurryBackgroundViewController.h */; };
+		6530D4A91C67539D007C0923 /* DRBlurryBackgroundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6530D48F1C67539D007C0923 /* DRBlurryBackgroundViewController.m */; };
+		6530D4AA1C67539D007C0923 /* DRFlowLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 6530D4901C67539D007C0923 /* DRFlowLayout.h */; };
+		6530D4AB1C67539D007C0923 /* DRFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 6530D4911C67539D007C0923 /* DRFlowLayout.m */; };
+		6530D4AC1C67539D007C0923 /* DRNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6530D4921C67539D007C0923 /* DRNavigationController.h */; };
+		6530D4AD1C67539D007C0923 /* DRNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6530D4931C67539D007C0923 /* DRNavigationController.m */; };
+		6530D4AE1C67539D007C0923 /* DRNavigationControllerWithPopControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 6530D4941C67539D007C0923 /* DRNavigationControllerWithPopControl.h */; };
+		6530D4AF1C67539D007C0923 /* DRNavigationControllerWithPopControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 6530D4951C67539D007C0923 /* DRNavigationControllerWithPopControl.m */; };
+		6530D4B01C67539D007C0923 /* DRSeeThroughLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 6530D4961C67539D007C0923 /* DRSeeThroughLabel.h */; };
+		6530D4B11C67539D007C0923 /* DRSeeThroughLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6530D4971C67539D007C0923 /* DRSeeThroughLabel.m */; };
+		6530D4B21C67539D007C0923 /* DRSegmentedControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 6530D4981C67539D007C0923 /* DRSegmentedControl.h */; };
+		6530D4B31C67539D007C0923 /* DRSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 6530D4991C67539D007C0923 /* DRSegmentedControl.m */; };
+		6530D4B41C67539D007C0923 /* DRSettingsSwitchTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 6530D49A1C67539D007C0923 /* DRSettingsSwitchTableViewCell.h */; };
+		6530D4B51C67539D007C0923 /* DRSettingsSwitchTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6530D49B1C67539D007C0923 /* DRSettingsSwitchTableViewCell.m */; };
+		6530D4B61C67539D007C0923 /* DRThemedNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6530D49C1C67539D007C0923 /* DRThemedNavigationController.h */; };
+		6530D4B71C67539D007C0923 /* DRThemedNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6530D49D1C67539D007C0923 /* DRThemedNavigationController.m */; };
+		6530D4B81C67539D007C0923 /* DRTintingLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 6530D49E1C67539D007C0923 /* DRTintingLabel.h */; };
+		6530D4B91C67539D007C0923 /* DRTintingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6530D49F1C67539D007C0923 /* DRTintingLabel.m */; };
+		6530D4BA1C67539D007C0923 /* DRTwoLabelTitleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6530D4A01C67539D007C0923 /* DRTwoLabelTitleView.h */; };
+		6530D4BB1C67539D007C0923 /* DRTwoLabelTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6530D4A11C67539D007C0923 /* DRTwoLabelTitleView.m */; };
+		6530D4BC1C67539D007C0923 /* UIBezierPath+TextPaths.h in Headers */ = {isa = PBXBuildFile; fileRef = 6530D4A21C67539D007C0923 /* UIBezierPath+TextPaths.h */; };
+		6530D4BD1C67539D007C0923 /* UIBezierPath+TextPaths.m in Sources */ = {isa = PBXBuildFile; fileRef = 6530D4A31C67539D007C0923 /* UIBezierPath+TextPaths.m */; };
+		6530D4BE1C67539D007C0923 /* UITabBarController+autoRotate.h in Headers */ = {isa = PBXBuildFile; fileRef = 6530D4A41C67539D007C0923 /* UITabBarController+autoRotate.h */; };
+		6530D4BF1C67539D007C0923 /* UITabBarController+autoRotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6530D4A51C67539D007C0923 /* UITabBarController+autoRotate.m */; };
+		6530D4C31C6753EB007C0923 /* UIDevice+Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6530D4C11C6753EB007C0923 /* UIDevice+Extensions.h */; };
+		6530D4C41C6753EB007C0923 /* UIDevice+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6530D4C21C6753EB007C0923 /* UIDevice+Extensions.m */; };
+		6530D4C81C675419007C0923 /* NSString+OS7.h in Headers */ = {isa = PBXBuildFile; fileRef = 6530D4C61C675419007C0923 /* NSString+OS7.h */; };
+		6530D4C91C675419007C0923 /* NSString+OS7.m in Sources */ = {isa = PBXBuildFile; fileRef = 6530D4C71C675419007C0923 /* NSString+OS7.m */; };
+		82DA1662EC6B9E6480F9D2BB04AE2B17 /* DoradaCore-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D6BDF6E2274F9070CFA01C8FC3CB98E /* DoradaCore-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85CE6BD4159B73B1D5FA12A706C00872 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		900D72979FA99F4B06597C7DCBC862BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		BB4FAB2ACF27C3A56DE8D1C7FD472181 /* DoradaCore-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F1CD639788EE93E6071CBFE51320FE1B /* DoradaCore-dummy.m */; };
+		DA0DD53017D5E1CC5C807B921DE781A3 /* Pods-DoradaCore_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E57C9915FC436E390DA00FBB54FCDA /* Pods-DoradaCore_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		628D61AA00223774CC33FC3070F36E62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68744D4C019E0BD73BF9B11BB130371F;
+			remoteInfo = "DoradaCore-DoradaCore";
+		};
+		E4C1BF1042BBD0DED3F5FDB17DD97A12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B5A48380EC5CE80AB4D80803862D657;
+			remoteInfo = DoradaCore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E37B3256152F9F42639C5F3AF5D4F2A /* Pods_DoradaCore_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DoradaCore_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		210B4C1FA7FDE4B5E39F83D7922ACE94 /* DoradaCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DoradaCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D663ED8DB23E8D521DC0C17A565879B /* DoradaCore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DoradaCore.xcconfig; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5D43F211DA4D78ED129027D6E1DCFF07 /* Pods-DoradaCore_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DoradaCore_Tests-umbrella.h"; sourceTree = "<group>"; };
+		5D9641ECA70C5AA389BE628AAEAF9353 /* Pods-DoradaCore_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DoradaCore_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6530D44A1C6751BA007C0923 /* DRABTestingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRABTestingController.h; sourceTree = "<group>"; };
+		6530D44B1C6751BA007C0923 /* DRABTestingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRABTestingController.m; sourceTree = "<group>"; };
+		6530D44F1C6751D0007C0923 /* DRSimpleAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRSimpleAlert.h; sourceTree = "<group>"; };
+		6530D4501C6751D0007C0923 /* DRSimpleAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRSimpleAlert.m; sourceTree = "<group>"; };
+		6530D4541C67521C007C0923 /* DRActivityAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRActivityAlertView.h; sourceTree = "<group>"; };
+		6530D4551C67521C007C0923 /* DRActivityAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRActivityAlertView.m; sourceTree = "<group>"; };
+		6530D4561C67521C007C0923 /* DRLegacyLoadingHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRLegacyLoadingHUD.h; sourceTree = "<group>"; };
+		6530D4571C67521C007C0923 /* DRLegacyLoadingHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRLegacyLoadingHUD.m; sourceTree = "<group>"; };
+		6530D4581C67521C007C0923 /* DRLoadingHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRLoadingHUD.h; sourceTree = "<group>"; };
+		6530D4591C67521C007C0923 /* DRLoadingHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRLoadingHUD.m; sourceTree = "<group>"; };
+		6530D45A1C67521C007C0923 /* DRLoadingHUDView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRLoadingHUDView.h; sourceTree = "<group>"; };
+		6530D45B1C67521C007C0923 /* DRLoadingHUDView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRLoadingHUDView.m; sourceTree = "<group>"; };
+		6530D45C1C67521C007C0923 /* DRSeparatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRSeparatorView.h; sourceTree = "<group>"; };
+		6530D45D1C67521C007C0923 /* DRSeparatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRSeparatorView.m; sourceTree = "<group>"; };
+		6530D4691C675226007C0923 /* DRLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRLogger.h; sourceTree = "<group>"; };
+		6530D46A1C675226007C0923 /* DRLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRLogger.m; sourceTree = "<group>"; };
+		6530D46E1C675234007C0923 /* DRAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRAppDelegate.h; sourceTree = "<group>"; };
+		6530D46F1C675234007C0923 /* DRAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRAppDelegate.m; sourceTree = "<group>"; };
+		6530D4701C675234007C0923 /* DRSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRSingleton.h; sourceTree = "<group>"; };
+		6530D4711C675234007C0923 /* DRSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRSingleton.m; sourceTree = "<group>"; };
+		6530D4771C675263007C0923 /* DRApplicationPaths.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRApplicationPaths.h; sourceTree = "<group>"; };
+		6530D4781C675263007C0923 /* DRApplicationPaths.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRApplicationPaths.m; sourceTree = "<group>"; };
+		6530D4791C675263007C0923 /* DRDiskspaceUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRDiskspaceUtilities.h; sourceTree = "<group>"; };
+		6530D47A1C675263007C0923 /* DRDiskspaceUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRDiskspaceUtilities.m; sourceTree = "<group>"; };
+		6530D47B1C675263007C0923 /* DRInstallTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRInstallTracker.h; sourceTree = "<group>"; };
+		6530D47C1C675263007C0923 /* DRInstallTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRInstallTracker.m; sourceTree = "<group>"; };
+		6530D47D1C675263007C0923 /* DRTimeFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRTimeFormatter.h; sourceTree = "<group>"; };
+		6530D47E1C675263007C0923 /* DRTimeFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRTimeFormatter.m; sourceTree = "<group>"; };
+		6530D47F1C675263007C0923 /* isPirate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = isPirate.h; sourceTree = "<group>"; };
+		6530D4801C675263007C0923 /* isPirate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = isPirate.m; sourceTree = "<group>"; };
+		6530D48E1C67539D007C0923 /* DRBlurryBackgroundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRBlurryBackgroundViewController.h; sourceTree = "<group>"; };
+		6530D48F1C67539D007C0923 /* DRBlurryBackgroundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRBlurryBackgroundViewController.m; sourceTree = "<group>"; };
+		6530D4901C67539D007C0923 /* DRFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRFlowLayout.h; sourceTree = "<group>"; };
+		6530D4911C67539D007C0923 /* DRFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRFlowLayout.m; sourceTree = "<group>"; };
+		6530D4921C67539D007C0923 /* DRNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRNavigationController.h; sourceTree = "<group>"; };
+		6530D4931C67539D007C0923 /* DRNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRNavigationController.m; sourceTree = "<group>"; };
+		6530D4941C67539D007C0923 /* DRNavigationControllerWithPopControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRNavigationControllerWithPopControl.h; sourceTree = "<group>"; };
+		6530D4951C67539D007C0923 /* DRNavigationControllerWithPopControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRNavigationControllerWithPopControl.m; sourceTree = "<group>"; };
+		6530D4961C67539D007C0923 /* DRSeeThroughLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRSeeThroughLabel.h; sourceTree = "<group>"; };
+		6530D4971C67539D007C0923 /* DRSeeThroughLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRSeeThroughLabel.m; sourceTree = "<group>"; };
+		6530D4981C67539D007C0923 /* DRSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRSegmentedControl.h; sourceTree = "<group>"; };
+		6530D4991C67539D007C0923 /* DRSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRSegmentedControl.m; sourceTree = "<group>"; };
+		6530D49A1C67539D007C0923 /* DRSettingsSwitchTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRSettingsSwitchTableViewCell.h; sourceTree = "<group>"; };
+		6530D49B1C67539D007C0923 /* DRSettingsSwitchTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRSettingsSwitchTableViewCell.m; sourceTree = "<group>"; };
+		6530D49C1C67539D007C0923 /* DRThemedNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRThemedNavigationController.h; sourceTree = "<group>"; };
+		6530D49D1C67539D007C0923 /* DRThemedNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRThemedNavigationController.m; sourceTree = "<group>"; };
+		6530D49E1C67539D007C0923 /* DRTintingLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRTintingLabel.h; sourceTree = "<group>"; };
+		6530D49F1C67539D007C0923 /* DRTintingLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRTintingLabel.m; sourceTree = "<group>"; };
+		6530D4A01C67539D007C0923 /* DRTwoLabelTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRTwoLabelTitleView.h; sourceTree = "<group>"; };
+		6530D4A11C67539D007C0923 /* DRTwoLabelTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRTwoLabelTitleView.m; sourceTree = "<group>"; };
+		6530D4A21C67539D007C0923 /* UIBezierPath+TextPaths.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+TextPaths.h"; sourceTree = "<group>"; };
+		6530D4A31C67539D007C0923 /* UIBezierPath+TextPaths.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+TextPaths.m"; sourceTree = "<group>"; };
+		6530D4A41C67539D007C0923 /* UITabBarController+autoRotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarController+autoRotate.h"; sourceTree = "<group>"; };
+		6530D4A51C67539D007C0923 /* UITabBarController+autoRotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController+autoRotate.m"; sourceTree = "<group>"; };
+		6530D4C11C6753EB007C0923 /* UIDevice+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Extensions.h"; sourceTree = "<group>"; };
+		6530D4C21C6753EB007C0923 /* UIDevice+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Extensions.m"; sourceTree = "<group>"; };
+		6530D4C61C675419007C0923 /* NSString+OS7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+OS7.h"; sourceTree = "<group>"; };
+		6530D4C71C675419007C0923 /* NSString+OS7.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+OS7.m"; sourceTree = "<group>"; };
+		67211C8733104228FF49FA80B27AA731 /* DoradaCore-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DoradaCore-prefix.pch"; sourceTree = "<group>"; };
+		8C57B682F01778396579F11D4E8568C1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D6BDF6E2274F9070CFA01C8FC3CB98E /* DoradaCore-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DoradaCore-umbrella.h"; sourceTree = "<group>"; };
+		965B0B4B3AF1795DDF40C587A5762A6D /* Pods-DoradaCore_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DoradaCore_Tests.modulemap"; sourceTree = "<group>"; };
+		99E57C9915FC436E390DA00FBB54FCDA /* Pods-DoradaCore_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DoradaCore_Tests-dummy.m"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C74A6C94557FBE061A4E80547325C60A /* Pods-DoradaCore_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DoradaCore_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C74C0A7FB40EBB1DBCEDAE1AE08B6A6A /* Pods-DoradaCore_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DoradaCore_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D5855FDB6A3CBB3511395A3B7475CC0C /* Pods-DoradaCore_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DoradaCore_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		DA4589CDF8175189DCA1AA0AF2A051EC /* Pods-DoradaCore_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DoradaCore_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E522A6A4CA4DD677484A4E34F14F7A9A /* DoradaCore.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DoradaCore.modulemap; sourceTree = "<group>"; };
+		E6798CC8F872DCA3C0248E50094CD585 /* DoradaCore.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoradaCore.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1CD639788EE93E6071CBFE51320FE1B /* DoradaCore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DoradaCore-dummy.m"; sourceTree = "<group>"; };
+		F36BD5D1D6EDB95483D060471D9E99B2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8021E4CF9C983B4BC54AF6834343FED /* Pods-DoradaCore_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DoradaCore_Tests-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7C879AA87037A2DB35FD554108CD4BC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93F0B58522A663BE1D626EC5F8344A26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				900D72979FA99F4B06597C7DCBC862BC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7DB3544A2CB4413D4759584D97AB753 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85CE6BD4159B73B1D5FA12A706C00872 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		429FF9F7945FA42179866B4BB68526BD /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A87824ABB0410E817F63F228F9EC3A16 /* DoradaCore */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		4E7C2EFA86EC696F4E7112726509E205 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E589C0F0093DCC767F25D3246294D135 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		6530D4491C6751BA007C0923 /* ABTesting */ = {
+			isa = PBXGroup;
+			children = (
+				6530D44A1C6751BA007C0923 /* DRABTestingController.h */,
+				6530D44B1C6751BA007C0923 /* DRABTestingController.m */,
+			);
+			path = ABTesting;
+			sourceTree = "<group>";
+		};
+		6530D44E1C6751D0007C0923 /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				6530D44F1C6751D0007C0923 /* DRSimpleAlert.h */,
+				6530D4501C6751D0007C0923 /* DRSimpleAlert.m */,
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
+		6530D4531C67521C007C0923 /* HUD */ = {
+			isa = PBXGroup;
+			children = (
+				6530D4541C67521C007C0923 /* DRActivityAlertView.h */,
+				6530D4551C67521C007C0923 /* DRActivityAlertView.m */,
+				6530D4561C67521C007C0923 /* DRLegacyLoadingHUD.h */,
+				6530D4571C67521C007C0923 /* DRLegacyLoadingHUD.m */,
+				6530D4581C67521C007C0923 /* DRLoadingHUD.h */,
+				6530D4591C67521C007C0923 /* DRLoadingHUD.m */,
+				6530D45A1C67521C007C0923 /* DRLoadingHUDView.h */,
+				6530D45B1C67521C007C0923 /* DRLoadingHUDView.m */,
+				6530D45C1C67521C007C0923 /* DRSeparatorView.h */,
+				6530D45D1C67521C007C0923 /* DRSeparatorView.m */,
+			);
+			path = HUD;
+			sourceTree = "<group>";
+		};
+		6530D4681C675226007C0923 /* Logger */ = {
+			isa = PBXGroup;
+			children = (
+				6530D4691C675226007C0923 /* DRLogger.h */,
+				6530D46A1C675226007C0923 /* DRLogger.m */,
+			);
+			path = Logger;
+			sourceTree = "<group>";
+		};
+		6530D46D1C675234007C0923 /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				6530D46E1C675234007C0923 /* DRAppDelegate.h */,
+				6530D46F1C675234007C0923 /* DRAppDelegate.m */,
+				6530D4701C675234007C0923 /* DRSingleton.h */,
+				6530D4711C675234007C0923 /* DRSingleton.m */,
+			);
+			path = Singleton;
+			sourceTree = "<group>";
+		};
+		6530D4761C675263007C0923 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				6530D4771C675263007C0923 /* DRApplicationPaths.h */,
+				6530D4781C675263007C0923 /* DRApplicationPaths.m */,
+				6530D4791C675263007C0923 /* DRDiskspaceUtilities.h */,
+				6530D47A1C675263007C0923 /* DRDiskspaceUtilities.m */,
+				6530D47B1C675263007C0923 /* DRInstallTracker.h */,
+				6530D47C1C675263007C0923 /* DRInstallTracker.m */,
+				6530D47D1C675263007C0923 /* DRTimeFormatter.h */,
+				6530D47E1C675263007C0923 /* DRTimeFormatter.m */,
+				6530D47F1C675263007C0923 /* isPirate.h */,
+				6530D4801C675263007C0923 /* isPirate.m */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		6530D48B1C67539D007C0923 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				6530D48E1C67539D007C0923 /* DRBlurryBackgroundViewController.h */,
+				6530D48F1C67539D007C0923 /* DRBlurryBackgroundViewController.m */,
+				6530D4901C67539D007C0923 /* DRFlowLayout.h */,
+				6530D4911C67539D007C0923 /* DRFlowLayout.m */,
+				6530D4921C67539D007C0923 /* DRNavigationController.h */,
+				6530D4931C67539D007C0923 /* DRNavigationController.m */,
+				6530D4941C67539D007C0923 /* DRNavigationControllerWithPopControl.h */,
+				6530D4951C67539D007C0923 /* DRNavigationControllerWithPopControl.m */,
+				6530D4961C67539D007C0923 /* DRSeeThroughLabel.h */,
+				6530D4971C67539D007C0923 /* DRSeeThroughLabel.m */,
+				6530D4981C67539D007C0923 /* DRSegmentedControl.h */,
+				6530D4991C67539D007C0923 /* DRSegmentedControl.m */,
+				6530D49A1C67539D007C0923 /* DRSettingsSwitchTableViewCell.h */,
+				6530D49B1C67539D007C0923 /* DRSettingsSwitchTableViewCell.m */,
+				6530D49C1C67539D007C0923 /* DRThemedNavigationController.h */,
+				6530D49D1C67539D007C0923 /* DRThemedNavigationController.m */,
+				6530D49E1C67539D007C0923 /* DRTintingLabel.h */,
+				6530D49F1C67539D007C0923 /* DRTintingLabel.m */,
+				6530D4A01C67539D007C0923 /* DRTwoLabelTitleView.h */,
+				6530D4A11C67539D007C0923 /* DRTwoLabelTitleView.m */,
+				6530D4A21C67539D007C0923 /* UIBezierPath+TextPaths.h */,
+				6530D4A31C67539D007C0923 /* UIBezierPath+TextPaths.m */,
+				6530D4A41C67539D007C0923 /* UITabBarController+autoRotate.h */,
+				6530D4A51C67539D007C0923 /* UITabBarController+autoRotate.m */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		6530D4C01C6753DA007C0923 /* Device */ = {
+			isa = PBXGroup;
+			children = (
+				6530D4C11C6753EB007C0923 /* UIDevice+Extensions.h */,
+				6530D4C21C6753EB007C0923 /* UIDevice+Extensions.m */,
+			);
+			path = Device;
+			sourceTree = "<group>";
+		};
+		6530D4C51C675404007C0923 /* String */ = {
+			isa = PBXGroup;
+			children = (
+				6530D4C61C675419007C0923 /* NSString+OS7.h */,
+				6530D4C71C675419007C0923 /* NSString+OS7.m */,
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
+		71D93F44B66B7821EB8BA86FBE6B87E2 /* Pods-DoradaCore_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8C57B682F01778396579F11D4E8568C1 /* Info.plist */,
+				965B0B4B3AF1795DDF40C587A5762A6D /* Pods-DoradaCore_Tests.modulemap */,
+				C74C0A7FB40EBB1DBCEDAE1AE08B6A6A /* Pods-DoradaCore_Tests-acknowledgements.markdown */,
+				5D9641ECA70C5AA389BE628AAEAF9353 /* Pods-DoradaCore_Tests-acknowledgements.plist */,
+				99E57C9915FC436E390DA00FBB54FCDA /* Pods-DoradaCore_Tests-dummy.m */,
+				D5855FDB6A3CBB3511395A3B7475CC0C /* Pods-DoradaCore_Tests-frameworks.sh */,
+				F8021E4CF9C983B4BC54AF6834343FED /* Pods-DoradaCore_Tests-resources.sh */,
+				5D43F211DA4D78ED129027D6E1DCFF07 /* Pods-DoradaCore_Tests-umbrella.h */,
+				C74A6C94557FBE061A4E80547325C60A /* Pods-DoradaCore_Tests.debug.xcconfig */,
+				DA4589CDF8175189DCA1AA0AF2A051EC /* Pods-DoradaCore_Tests.release.xcconfig */,
+			);
+			name = "Pods-DoradaCore_Tests";
+			path = "Target Support Files/Pods-DoradaCore_Tests";
+			sourceTree = "<group>";
+		};
+		7A77F30B3EF37DA59B7B496635FABEEB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				71D93F44B66B7821EB8BA86FBE6B87E2 /* Pods-DoradaCore_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				429FF9F7945FA42179866B4BB68526BD /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				8025732474BC92EDE82D1E1ACB7C03AB /* Products */,
+				7A77F30B3EF37DA59B7B496635FABEEB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8025732474BC92EDE82D1E1ACB7C03AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6798CC8F872DCA3C0248E50094CD585 /* DoradaCore.bundle */,
+				210B4C1FA7FDE4B5E39F83D7922ACE94 /* DoradaCore.framework */,
+				0E37B3256152F9F42639C5F3AF5D4F2A /* Pods_DoradaCore_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A87824ABB0410E817F63F228F9EC3A16 /* DoradaCore */ = {
+			isa = PBXGroup;
+			children = (
+				4E7C2EFA86EC696F4E7112726509E205 /* Pod */,
+				BA3BA6DE0BF57C080198FD84FF14DB56 /* Support Files */,
+			);
+			name = DoradaCore;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BA3BA6DE0BF57C080198FD84FF14DB56 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E522A6A4CA4DD677484A4E34F14F7A9A /* DoradaCore.modulemap */,
+				2D663ED8DB23E8D521DC0C17A565879B /* DoradaCore.xcconfig */,
+				F1CD639788EE93E6071CBFE51320FE1B /* DoradaCore-dummy.m */,
+				67211C8733104228FF49FA80B27AA731 /* DoradaCore-prefix.pch */,
+				8D6BDF6E2274F9070CFA01C8FC3CB98E /* DoradaCore-umbrella.h */,
+				F36BD5D1D6EDB95483D060471D9E99B2 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DoradaCore";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E589C0F0093DCC767F25D3246294D135 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6530D4C51C675404007C0923 /* String */,
+				6530D4C01C6753DA007C0923 /* Device */,
+				6530D48B1C67539D007C0923 /* UI */,
+				6530D4761C675263007C0923 /* Utilities */,
+				6530D46D1C675234007C0923 /* Singleton */,
+				6530D4681C675226007C0923 /* Logger */,
+				6530D4531C67521C007C0923 /* HUD */,
+				6530D44E1C6751D0007C0923 /* Alert */,
+				6530D4491C6751BA007C0923 /* ABTesting */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		032B0BF02DAB4DD3AB4F713811DD786B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6530D44C1C6751BA007C0923 /* DRABTestingController.h in Headers */,
+				6530D4C31C6753EB007C0923 /* UIDevice+Extensions.h in Headers */,
+				6530D4891C675263007C0923 /* isPirate.h in Headers */,
+				6530D4871C675263007C0923 /* DRTimeFormatter.h in Headers */,
+				6530D4741C675234007C0923 /* DRSingleton.h in Headers */,
+				6530D4661C67521C007C0923 /* DRSeparatorView.h in Headers */,
+				6530D45E1C67521C007C0923 /* DRActivityAlertView.h in Headers */,
+				6530D4811C675263007C0923 /* DRApplicationPaths.h in Headers */,
+				6530D4B81C67539D007C0923 /* DRTintingLabel.h in Headers */,
+				6530D4AA1C67539D007C0923 /* DRFlowLayout.h in Headers */,
+				6530D4AC1C67539D007C0923 /* DRNavigationController.h in Headers */,
+				6530D4BC1C67539D007C0923 /* UIBezierPath+TextPaths.h in Headers */,
+				6530D4851C675263007C0923 /* DRInstallTracker.h in Headers */,
+				6530D4831C675263007C0923 /* DRDiskspaceUtilities.h in Headers */,
+				6530D4B61C67539D007C0923 /* DRThemedNavigationController.h in Headers */,
+				6530D4A81C67539D007C0923 /* DRBlurryBackgroundViewController.h in Headers */,
+				6530D4AE1C67539D007C0923 /* DRNavigationControllerWithPopControl.h in Headers */,
+				6530D4BE1C67539D007C0923 /* UITabBarController+autoRotate.h in Headers */,
+				82DA1662EC6B9E6480F9D2BB04AE2B17 /* DoradaCore-umbrella.h in Headers */,
+				6530D4641C67521C007C0923 /* DRLoadingHUDView.h in Headers */,
+				6530D4721C675234007C0923 /* DRAppDelegate.h in Headers */,
+				6530D4B21C67539D007C0923 /* DRSegmentedControl.h in Headers */,
+				6530D4C81C675419007C0923 /* NSString+OS7.h in Headers */,
+				6530D4B41C67539D007C0923 /* DRSettingsSwitchTableViewCell.h in Headers */,
+				6530D4511C6751D0007C0923 /* DRSimpleAlert.h in Headers */,
+				6530D4B01C67539D007C0923 /* DRSeeThroughLabel.h in Headers */,
+				6530D4601C67521C007C0923 /* DRLegacyLoadingHUD.h in Headers */,
+				6530D46B1C675226007C0923 /* DRLogger.h in Headers */,
+				6530D4BA1C67539D007C0923 /* DRTwoLabelTitleView.h in Headers */,
+				6530D4621C67521C007C0923 /* DRLoadingHUD.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05B7067DB673FA89BC8C8D4682C4BB12 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				544B5BDB9ADD151D9399CF874B10A6E5 /* Pods-DoradaCore_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		68744D4C019E0BD73BF9B11BB130371F /* DoradaCore-DoradaCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CB988D7E21EA26E97153416B2831BC5 /* Build configuration list for PBXNativeTarget "DoradaCore-DoradaCore" */;
+			buildPhases = (
+				931F14E4B029C207BB78ACBFE98CD1B7 /* Sources */,
+				7C879AA87037A2DB35FD554108CD4BC2 /* Frameworks */,
+				3CE6C25BF27E7A8377AC3EE67C0D70A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DoradaCore-DoradaCore";
+			productName = "DoradaCore-DoradaCore";
+			productReference = E6798CC8F872DCA3C0248E50094CD585 /* DoradaCore.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		7FBDC285F5B2D3A7A33EDD6F7FFD7056 /* Pods-DoradaCore_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C67C561BD2E44A54E8D1876A935CD251 /* Build configuration list for PBXNativeTarget "Pods-DoradaCore_Tests" */;
+			buildPhases = (
+				E71F85EC0BCD52709EF4A22EA1D239E2 /* Sources */,
+				F7DB3544A2CB4413D4759584D97AB753 /* Frameworks */,
+				05B7067DB673FA89BC8C8D4682C4BB12 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF259586FE40E5B3E13AA7BE4E3628BB /* PBXTargetDependency */,
+			);
+			name = "Pods-DoradaCore_Tests";
+			productName = "Pods-DoradaCore_Tests";
+			productReference = 0E37B3256152F9F42639C5F3AF5D4F2A /* Pods_DoradaCore_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8B5A48380EC5CE80AB4D80803862D657 /* DoradaCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C63D7C7A5C81489E86B9B61EAE50DA4F /* Build configuration list for PBXNativeTarget "DoradaCore" */;
+			buildPhases = (
+				F8EEB8AA4F441328E02D9009BAFE0F82 /* Sources */,
+				93F0B58522A663BE1D626EC5F8344A26 /* Frameworks */,
+				1ECD1EEE4C5D2E200E6AAA7D95FD02F7 /* Resources */,
+				032B0BF02DAB4DD3AB4F713811DD786B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				561ED6CDDA970CEFF9A7B13713D3A763 /* PBXTargetDependency */,
+			);
+			name = DoradaCore;
+			productName = DoradaCore;
+			productReference = 210B4C1FA7FDE4B5E39F83D7922ACE94 /* DoradaCore.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 8025732474BC92EDE82D1E1ACB7C03AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B5A48380EC5CE80AB4D80803862D657 /* DoradaCore */,
+				68744D4C019E0BD73BF9B11BB130371F /* DoradaCore-DoradaCore */,
+				7FBDC285F5B2D3A7A33EDD6F7FFD7056 /* Pods-DoradaCore_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1ECD1EEE4C5D2E200E6AAA7D95FD02F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0950A8BD46983AB0EB17ED502D6C38A4 /* DoradaCore.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CE6C25BF27E7A8377AC3EE67C0D70A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		931F14E4B029C207BB78ACBFE98CD1B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E71F85EC0BCD52709EF4A22EA1D239E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA0DD53017D5E1CC5C807B921DE781A3 /* Pods-DoradaCore_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8EEB8AA4F441328E02D9009BAFE0F82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6530D4731C675234007C0923 /* DRAppDelegate.m in Sources */,
+				6530D4AF1C67539D007C0923 /* DRNavigationControllerWithPopControl.m in Sources */,
+				6530D4881C675263007C0923 /* DRTimeFormatter.m in Sources */,
+				6530D4BF1C67539D007C0923 /* UITabBarController+autoRotate.m in Sources */,
+				6530D4C41C6753EB007C0923 /* UIDevice+Extensions.m in Sources */,
+				6530D4631C67521C007C0923 /* DRLoadingHUD.m in Sources */,
+				6530D4751C675234007C0923 /* DRSingleton.m in Sources */,
+				6530D4B31C67539D007C0923 /* DRSegmentedControl.m in Sources */,
+				6530D4AB1C67539D007C0923 /* DRFlowLayout.m in Sources */,
+				BB4FAB2ACF27C3A56DE8D1C7FD472181 /* DoradaCore-dummy.m in Sources */,
+				6530D46C1C675226007C0923 /* DRLogger.m in Sources */,
+				6530D4B11C67539D007C0923 /* DRSeeThroughLabel.m in Sources */,
+				6530D48A1C675263007C0923 /* isPirate.m in Sources */,
+				6530D4B71C67539D007C0923 /* DRThemedNavigationController.m in Sources */,
+				6530D4821C675263007C0923 /* DRApplicationPaths.m in Sources */,
+				6530D44D1C6751BA007C0923 /* DRABTestingController.m in Sources */,
+				6530D4B91C67539D007C0923 /* DRTintingLabel.m in Sources */,
+				6530D4C91C675419007C0923 /* NSString+OS7.m in Sources */,
+				6530D45F1C67521C007C0923 /* DRActivityAlertView.m in Sources */,
+				6530D4BB1C67539D007C0923 /* DRTwoLabelTitleView.m in Sources */,
+				6530D4B51C67539D007C0923 /* DRSettingsSwitchTableViewCell.m in Sources */,
+				6530D4861C675263007C0923 /* DRInstallTracker.m in Sources */,
+				6530D4841C675263007C0923 /* DRDiskspaceUtilities.m in Sources */,
+				6530D4AD1C67539D007C0923 /* DRNavigationController.m in Sources */,
+				6530D4521C6751D0007C0923 /* DRSimpleAlert.m in Sources */,
+				6530D4611C67521C007C0923 /* DRLegacyLoadingHUD.m in Sources */,
+				6530D4671C67521C007C0923 /* DRSeparatorView.m in Sources */,
+				6530D4A91C67539D007C0923 /* DRBlurryBackgroundViewController.m in Sources */,
+				6530D4651C67521C007C0923 /* DRLoadingHUDView.m in Sources */,
+				6530D4BD1C67539D007C0923 /* UIBezierPath+TextPaths.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		561ED6CDDA970CEFF9A7B13713D3A763 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "DoradaCore-DoradaCore";
+			target = 68744D4C019E0BD73BF9B11BB130371F /* DoradaCore-DoradaCore */;
+			targetProxy = 628D61AA00223774CC33FC3070F36E62 /* PBXContainerItemProxy */;
+		};
+		AF259586FE40E5B3E13AA7BE4E3628BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DoradaCore;
+			target = 8B5A48380EC5CE80AB4D80803862D657 /* DoradaCore */;
+			targetProxy = E4C1BF1042BBD0DED3F5FDB17DD97A12 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		258B3465CA68F35C78DBC5F3EE98AA4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C74A6C94557FBE061A4E80547325C60A /* Pods-DoradaCore_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DoradaCore_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DoradaCore_Tests/Pods-DoradaCore_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_DoradaCore_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		28C3B9FF8E9FAD0664430FC5FE3D9642 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D663ED8DB23E8D521DC0C17A565879B /* DoradaCore.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = DoradaCore;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		82E00EFA233CC086798F3896001E1337 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D663ED8DB23E8D521DC0C17A565879B /* DoradaCore.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DoradaCore/DoradaCore-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DoradaCore/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DoradaCore/DoradaCore.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = DoradaCore;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C96ACD5B4264E8A839D0ED542B792493 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA4589CDF8175189DCA1AA0AF2A051EC /* Pods-DoradaCore_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DoradaCore_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DoradaCore_Tests/Pods-DoradaCore_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_DoradaCore_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CFFAE79A0E55EF6F0CB5CA2F62D65777 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D663ED8DB23E8D521DC0C17A565879B /* DoradaCore.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DoradaCore/DoradaCore-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DoradaCore/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DoradaCore/DoradaCore.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DoradaCore;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E3E940FD43735B3DE6877B426DD2AA90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D663ED8DB23E8D521DC0C17A565879B /* DoradaCore.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = DoradaCore;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CB988D7E21EA26E97153416B2831BC5 /* Build configuration list for PBXNativeTarget "DoradaCore-DoradaCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3E940FD43735B3DE6877B426DD2AA90 /* Debug */,
+				28C3B9FF8E9FAD0664430FC5FE3D9642 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
+				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C63D7C7A5C81489E86B9B61EAE50DA4F /* Build configuration list for PBXNativeTarget "DoradaCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82E00EFA233CC086798F3896001E1337 /* Debug */,
+				CFFAE79A0E55EF6F0CB5CA2F62D65777 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C67C561BD2E44A54E8D1876A935CD251 /* Build configuration list for PBXNativeTarget "Pods-DoradaCore_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				258B3465CA68F35C78DBC5F3EE98AA4A /* Debug */,
+				C96ACD5B4264E8A839D0ED542B792493 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

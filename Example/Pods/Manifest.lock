@@ -1,0 +1,14 @@
+PODS:
+  - DoradaCore (0.1.0)
+
+DEPENDENCIES:
+  - DoradaCore (from `../`)
+
+EXTERNAL SOURCES:
+  DoradaCore:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DoradaCore: 85105a2493f7aedf3a2bf28361445e9e329e52de
+
+COCOAPODS: 0.39.0

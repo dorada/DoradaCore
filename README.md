@@ -1,6 +1,6 @@
 # DoradaCore
 
-[![CI Status](http://img.shields.io/travis/Daniel Broad/DoradaCore.svg?style=flat)](https://travis-ci.org/Daniel Broad/DoradaCore)
+[![CI Status](http://img.shields.io/travis/dorada/DoradaCore.svg?style=flat)](https://travis-ci.org/dorada/DoradaCore)
 [![Version](https://img.shields.io/cocoapods/v/DoradaCore.svg?style=flat)](http://cocoapods.org/pods/DoradaCore)
 [![License](https://img.shields.io/cocoapods/l/DoradaCore.svg?style=flat)](http://cocoapods.org/pods/DoradaCore)
 [![Platform](https://img.shields.io/cocoapods/p/DoradaCore.svg?style=flat)](http://cocoapods.org/pods/DoradaCore)
