@@ -105,7 +105,9 @@
         va_list args;
         va_start(args, prefix);
         NSString* arg = va_arg(args, NSString*);
-        if (nil != arg && [arg rangeOfString:@"%"].location != NSNotFound) {
+        if (!arg) {
+            [self _appendLog:prefix];
+        } else if ([arg rangeOfString:@"%"].location != NSNotFound) {
             NSString *message = [[NSString alloc] initWithFormat:arg arguments:args];
             [self _appendLog:message];
         } else {

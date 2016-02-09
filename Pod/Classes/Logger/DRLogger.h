@@ -15,6 +15,6 @@
 -(NSString*) logAsString;
 -(NSString*) persistantFilePath;
 
-- (void) appendLog:(NSString*)prefix, ...;
+- (void) appendLog:(NSString*)prefix, ... NS_REQUIRES_NIL_TERMINATION;
 
 @end
