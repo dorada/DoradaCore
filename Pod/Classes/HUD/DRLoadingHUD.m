@@ -13,7 +13,7 @@
 #import "DRLegacyLoadingHUD.h"
 #endif
 
-#import "UIDevice+Extensions.h"
+#import "UIDevice+DRExtensions.h"
 
 typedef void(^completionHandler)(void);
 

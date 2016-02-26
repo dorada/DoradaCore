@@ -7,7 +7,7 @@
 //
 
 #import "DRActivityAlertView.h"
-#import "UIDevice+Extensions.h"
+#import "UIDevice+DRExtensions.h"
 
 @interface DRActivityAlertView () <UIAlertViewDelegate>
 

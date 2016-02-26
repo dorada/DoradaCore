@@ -6,11 +6,11 @@
 //  Copyright 2011 Dorada. All rights reserved.
 //
 
-#import "UIDevice+Extensions.h"
+#import "UIDevice+DRExtensions.h"
 #include <sys/types.h>
 #include <sys/sysctl.h>
 
-@implementation UIDevice (Extensions)
+@implementation UIDevice (DRExtensions)
 
 + (NSString *) device {
 	size_t size;

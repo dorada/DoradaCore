@@ -63,8 +63,8 @@
 		6530D4BD1C67539D007C0923 /* UIBezierPath+TextPaths.m in Sources */ = {isa = PBXBuildFile; fileRef = 6530D4A31C67539D007C0923 /* UIBezierPath+TextPaths.m */; };
 		6530D4BE1C67539D007C0923 /* UITabBarController+autoRotate.h in Headers */ = {isa = PBXBuildFile; fileRef = 6530D4A41C67539D007C0923 /* UITabBarController+autoRotate.h */; };
 		6530D4BF1C67539D007C0923 /* UITabBarController+autoRotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6530D4A51C67539D007C0923 /* UITabBarController+autoRotate.m */; };
-		6530D4C31C6753EB007C0923 /* UIDevice+Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6530D4C11C6753EB007C0923 /* UIDevice+Extensions.h */; };
-		6530D4C41C6753EB007C0923 /* UIDevice+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6530D4C21C6753EB007C0923 /* UIDevice+Extensions.m */; };
+		6530D4C31C6753EB007C0923 /* UIDevice+DRExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6530D4C11C6753EB007C0923 /* UIDevice+DRExtensions.h */; };
+		6530D4C41C6753EB007C0923 /* UIDevice+DRExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6530D4C21C6753EB007C0923 /* UIDevice+DRExtensions.m */; };
 		6530D4C81C675419007C0923 /* NSString+OS7.h in Headers */ = {isa = PBXBuildFile; fileRef = 6530D4C61C675419007C0923 /* NSString+OS7.h */; };
 		6530D4C91C675419007C0923 /* NSString+OS7.m in Sources */ = {isa = PBXBuildFile; fileRef = 6530D4C71C675419007C0923 /* NSString+OS7.m */; };
 		82DA1662EC6B9E6480F9D2BB04AE2B17 /* DoradaCore-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D6BDF6E2274F9070CFA01C8FC3CB98E /* DoradaCore-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -152,10 +152,11 @@
 		6530D4A31C67539D007C0923 /* UIBezierPath+TextPaths.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+TextPaths.m"; sourceTree = "<group>"; };
 		6530D4A41C67539D007C0923 /* UITabBarController+autoRotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarController+autoRotate.h"; sourceTree = "<group>"; };
 		6530D4A51C67539D007C0923 /* UITabBarController+autoRotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController+autoRotate.m"; sourceTree = "<group>"; };
-		6530D4C11C6753EB007C0923 /* UIDevice+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Extensions.h"; sourceTree = "<group>"; };
-		6530D4C21C6753EB007C0923 /* UIDevice+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Extensions.m"; sourceTree = "<group>"; };
+		6530D4C11C6753EB007C0923 /* UIDevice+DRExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+DRExtensions.h"; sourceTree = "<group>"; };
+		6530D4C21C6753EB007C0923 /* UIDevice+DRExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+DRExtensions.m"; sourceTree = "<group>"; };
 		6530D4C61C675419007C0923 /* NSString+OS7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+OS7.h"; sourceTree = "<group>"; };
 		6530D4C71C675419007C0923 /* NSString+OS7.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+OS7.m"; sourceTree = "<group>"; };
+		653FEC651C6B3C0E0079A44E /* DoradaCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DoradaCore.h; sourceTree = "<group>"; };
 		67211C8733104228FF49FA80B27AA731 /* DoradaCore-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DoradaCore-prefix.pch"; sourceTree = "<group>"; };
 		8C57B682F01778396579F11D4E8568C1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D6BDF6E2274F9070CFA01C8FC3CB98E /* DoradaCore-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DoradaCore-umbrella.h"; sourceTree = "<group>"; };
@@ -212,6 +213,7 @@
 			isa = PBXGroup;
 			children = (
 				E589C0F0093DCC767F25D3246294D135 /* Classes */,
+				653FEC651C6B3C0E0079A44E /* DoradaCore.h */,
 			);
 			path = Pod;
 			sourceTree = "<group>";
@@ -322,8 +324,8 @@
 		6530D4C01C6753DA007C0923 /* Device */ = {
 			isa = PBXGroup;
 			children = (
-				6530D4C11C6753EB007C0923 /* UIDevice+Extensions.h */,
-				6530D4C21C6753EB007C0923 /* UIDevice+Extensions.m */,
+				6530D4C11C6753EB007C0923 /* UIDevice+DRExtensions.h */,
+				6530D4C21C6753EB007C0923 /* UIDevice+DRExtensions.m */,
 			);
 			path = Device;
 			sourceTree = "<group>";
@@ -448,7 +450,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6530D44C1C6751BA007C0923 /* DRABTestingController.h in Headers */,
-				6530D4C31C6753EB007C0923 /* UIDevice+Extensions.h in Headers */,
+				6530D4C31C6753EB007C0923 /* UIDevice+DRExtensions.h in Headers */,
 				6530D4891C675263007C0923 /* isPirate.h in Headers */,
 				6530D4871C675263007C0923 /* DRTimeFormatter.h in Headers */,
 				6530D4741C675234007C0923 /* DRSingleton.h in Headers */,
@@ -615,7 +617,7 @@
 				6530D4AF1C67539D007C0923 /* DRNavigationControllerWithPopControl.m in Sources */,
 				6530D4881C675263007C0923 /* DRTimeFormatter.m in Sources */,
 				6530D4BF1C67539D007C0923 /* UITabBarController+autoRotate.m in Sources */,
-				6530D4C41C6753EB007C0923 /* UIDevice+Extensions.m in Sources */,
+				6530D4C41C6753EB007C0923 /* UIDevice+DRExtensions.m in Sources */,
 				6530D4631C67521C007C0923 /* DRLoadingHUD.m in Sources */,
 				6530D4751C675234007C0923 /* DRSingleton.m in Sources */,
 				6530D4B31C67539D007C0923 /* DRSegmentedControl.m in Sources */,

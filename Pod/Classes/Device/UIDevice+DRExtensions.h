@@ -11,7 +11,7 @@
 
 
 
-@interface UIDevice (Extensions)
+@interface UIDevice (DRExtensions)
 
 + (NSString *) device;
 + (BOOL) is_iPad;
